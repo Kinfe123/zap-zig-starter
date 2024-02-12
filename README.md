@@ -9,7 +9,6 @@ git clone https://github.com/Kinfe123/zap-zig-starter
 ```bash
 zig build
 ```
-
 To build all of the necessaries there in build function and including fetching a packages from github 
 
 then you can start using zap in your `src/main.zig`
