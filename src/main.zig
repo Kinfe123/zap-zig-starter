@@ -19,11 +19,8 @@ pub fn main() !void {
 
     // start worker threads
     zap.start(.{
-        .threads = 2,
-        .workers = 2,
+        .threads = 1,
+        .workers = 1,
     });
 }
 
-test "basic test" {
-    try std.testing.expectEqual(10, 3 + 7);
-}
